@@ -21,7 +21,7 @@
 #define LV_ATTRIBUTE_IMG_CIF0PS4UKAA99R2 - COPY
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_CIF0PS4UKAA99R2 - COPY uint8_t CiF0PS4UkAA99R2 - Copy_map[] = {
+const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ZENLOGO uint8_t   zenlogo_map[] = {
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
@@ -62,12 +62,12 @@ const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_CIF0PS4UK
   0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 0xff, 
 };
 
-const lv_img_dsc_t CiF0PS4UkAA99R2 - Copy = {
+const lv_img_dsc_t zenlogo = {
   .header.cf = LV_IMG_CF_ALPHA_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
   .header.w = 80,
   .header.h = 38,
   .data_size = 380,
-  .data = CiF0PS4UkAA99R2 - Copy_map,
+  .data = zenlogo_map,
 };
